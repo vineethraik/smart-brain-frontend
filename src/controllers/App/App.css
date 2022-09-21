@@ -1,0 +1,7 @@
+.app.main{
+    width: 100vw;
+    height: max-content;
+    min-height: 100vh;
+    background: linear-gradient(#8002f5,#ba0245);
+    overflow: hidden ;
+}
