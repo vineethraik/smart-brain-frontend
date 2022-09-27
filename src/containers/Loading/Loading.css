@@ -1,0 +1,39 @@
+.loading.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: calc(50vh - 100px - 3rem);
+}
+
+.loading.img {
+    width: 200px;
+    animation: ani 2s infinite ease-in-out;
+    border-radius: 40%;
+}
+
+.loading.text {
+    margin-top: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 1000;
+    color: rgba(10, 43, 78, 0.5);
+    box-shadow: 0 0 0.5rem black;
+}
+
+@keyframes ani {
+    
+
+    25% {
+        transform: rotate(20deg);
+    }
+
+    75% {
+        transform: rotate(-20deg);
+    }
+
+    
+}
