@@ -1,0 +1,38 @@
+.navBar.main{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.navBar.navContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    row-gap: 10px ;
+}
+
+.navBar.navLink{
+    margin-right: 1rem;
+    padding: 0.25rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    color: #3d1a5d;
+    box-shadow: 0px 0px 0.7rem  black;
+    cursor: pointer;
+}
+
+.navBar.navLink:hover{
+    scale: 1.1;
+    transition-duration: 300ms;
+}
+
+@media only screen and (max-width:500px){
+    .navBar.navContainer{
+        justify-content: space-around;
+    }
+    .navBar.navLink{
+        font-size: 1.25rem;
+        margin-right: 0.5rem;
+    }
+}
