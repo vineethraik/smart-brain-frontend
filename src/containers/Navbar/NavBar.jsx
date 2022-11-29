@@ -21,6 +21,12 @@ const NavLinks = ({route,changRoute}) => {
                     <p className="navBar navLink" onClick={() => { changRoute('register')}} >Register</p>
                 </div>
             );
+            case 'about':
+                return (
+                    <div className="navBar navContainer">
+                        <p className="navBar navLink" onClick={() => {window.location.reload(false)}} >Back</p>
+                    </div>
+                );
         default:
             break;
     }
@@ -29,9 +35,9 @@ const NavLinks = ({route,changRoute}) => {
 
  const NavBar = ({ Route ,changeRoute}) => {
     return (
-        <div className="navbar main">
-            <div className="navbar main1">Smart Brain</div>
-            <div className="navbar main2">
+        <div className="navBar main">
+            <div className="navBar header">Smart Brain</div>
+            <div className="navBar main2">
                 <NavLinks changRoute={changeRoute} route={Route} />
             </div>
         </div>
