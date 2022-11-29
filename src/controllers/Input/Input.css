@@ -15,6 +15,10 @@
     column-gap: 1rem;
 }
 
+.input.h2{
+    color: #072758;
+}
+
 .input.button {
     cursor: pointer;
     border: 0;
