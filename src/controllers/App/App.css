@@ -2,6 +2,7 @@
     width: 100vw;
     height: max-content;
     min-height: 100vh;
-    background: linear-gradient(#8002f5,#ba0245);
+    padding: 10px;
+    background: linear-gradient(200deg,#4f95bd,#771568);
     overflow: hidden ;
 }
