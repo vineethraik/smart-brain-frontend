@@ -1,0 +1,78 @@
+.leaderboard.dataContainer{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    font-weight: 1000;
+
+}
+
+tr,td,th{
+    padding: 0.5rem;
+}
+
+tr{
+    box-shadow: 0 0 5px;
+}
+
+thead tr{
+    font-size: 2rem;
+    border-radius: 0.5rem;
+}
+
+tbody tr{
+    border-radius: 1rem;
+    margin-top: 10px;
+}
+
+.leaderboard.main{
+    display: flex;
+    justify-content: center;
+}
+
+.leaderboard.loading{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto auto;
+    border-radius: 2rem;
+    opacity: 0.9;
+    width: 250px;
+    height: 250px;
+    background:radial-gradient(#26e2bf 1%,#116858);
+    color:#116858;
+    font-size: 1.5rem;
+    font-weight: 1000;
+}
+
+.leaderboard.loading::after{
+    animation: cont 2s infinite;
+}
+
+@keyframes cont {
+    0%{
+       content: 'Loading ';
+    }
+
+    25%{
+        content: 'Loading .';
+    }
+
+    50%{
+        content: 'Loading ..';
+    }
+
+    75%{
+        content: 'Loading ...';
+    }
+
+    100%{
+        content: 'Loading ';
+    }
+}
