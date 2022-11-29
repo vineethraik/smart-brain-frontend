@@ -1,0 +1,29 @@
+.footer.main{
+    position: fixed;
+    /* width: calc(100% - 20px); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 50px;
+    /* top: calc(100vh - 50px); */
+    overflow: auto;
+    left: 0;
+    bottom: 0;
+    border-radius: 0.5rem 0.5rem 1rem 1rem;
+    box-shadow: 0 0 0.5rem black;
+    background-color: blueviolet;
+
+}
+
+.footer.container{
+    font-size: 1.5rem;
+    font-weight: 1000;
+    color: #389d9d;
+    box-shadow: 0 0 0.5rem black;
+    cursor: pointer;
+    padding: 0.25rem 1rem;
+    border-radius: 0.5rem;
+
+}
+
