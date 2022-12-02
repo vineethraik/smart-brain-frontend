@@ -22,8 +22,8 @@ import Image from "../../containers/Image/Image";
 import Leaderboard from "../Leaderboard/Leaderboard";
 
 export const backend = {
-  // mainUrl: 'http://localhost:3000',
-  mainUrl: "https://api.smartbrain.vrkcreations.in",
+   mainUrl: 'http://localhost:3000',
+  //mainUrl: "https://api.smartbrain.vrkcreations.in",
   // mainUrl: 'https://3efa-106-196-24-161.ngrok.io',
 };
 
